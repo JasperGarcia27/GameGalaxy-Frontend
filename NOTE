@@ -1,0 +1,61 @@
+* Responsive
+* Add Product
+* Upload Profile
+* Reset Password
+* Navbar - Profile
+
+Additional Features
+* Profile: first name, last name
+* User's order
+
+
+--------
+- Profile Update
+- Reset Password
+- Search
+
+
+Filtering of Products
+//ALL
+-- Categories --
+- All
+- Laptop & Desktop
+- Mobile Devices
+- More Essentials
+
+// Consoles
+-- Categories --
+- Playstation
+- Xbox
+- Nintendo Switch
+- Accessories
+- Games
+    - All  
+    - Playstation Games
+    - Xbox Games
+    - Nintendo Games
+
+// Laptop & Desktop
+-- Categories --
+- Brand
+- Laptop Type
+    -- Gaming Laptop
+    -- Non-Gaming Laptop
+- Desktop
+- Hardware Components
+- Other Peripherals
+
+// Mobile Devices
+-- Categories --
+- Brand
+- Android Mobile
+- IOS Mobile
+- Tablet
+
+// More Essentials
+-- Categories --
+- Gaming Chair
+- Gaming Table
+- Simulation Device
+- Power Bank 
+

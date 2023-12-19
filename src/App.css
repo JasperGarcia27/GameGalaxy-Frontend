@@ -1,0 +1,331 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ 
+
+
+/* #register {
+  height: 100vh;
+	color: white;
+    background: 
+        linear-gradient(
+
+            rgba(114, 118, 143, 0.59),
+            rgba(0, 0, 0, 0.59)
+        ),
+        url("./pictures/bg-register.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+} */
+
+/* #login {
+  height: 100vh;
+  background-color: rgb(107, 164, 248);
+} */
+
+/* ============ PAGE ============*/
+#LogiPage {
+  /* padding-top: 80px; */
+  background-size: cover;
+  background-image: url('./pictures/login.gif');
+}
+
+#HomePage {
+  padding-top: 80px;
+  /* background-color: rgb(198, 217, 236); */
+}
+
+#ProductPage {
+  padding-top: 80px;
+  background-color: rgb(198, 217, 236);
+}
+
+#ProductDetailsPage {
+  padding-top: 80px;
+  background-color: rgb(198, 217, 236);
+}
+
+#RegisterPage{
+  height: 100vh;
+  padding-top: 50px;
+  background-size: cover;
+  background-image: url('./pictures/register.gif');
+}
+
+
+.AdminView {
+  padding-top: 80px;
+}
+/* ============ PAGE ============*/
+body {
+  /* padding-top: 80px; */
+  background-color: rgb(198, 217, 236);
+}
+.cardHighlight {
+  min-height: 100%
+}
+
+
+
+
+#categoryValue {
+  color: rgb(212, 0, 255);
+}
+
+/* AppNavBar.js */
+#NavBar {
+  background-color: #99D6EA;
+}
+
+
+
+/* Nav Drop Down */
+#navbarScrollingDropdown::after{
+  display: none !important; 
+}
+
+
+.swiper-slide img {
+  width: 100%;
+}
+
+/* Input Numner */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+/* <FeaturedProducts /> */
+#seemore {
+  /* background-color: #B8C0FF; */
+  background-color: #1bbcf1;
+}
+#AllActiveProducts {
+  background-color:  #99D6EA;
+  /* background-size: cover;
+  background-image: url(https://1.bp.blogspot.com/-mUocUF9uF7M/X4k06K5SG1I/AAAAAAAA-Ts/wC1iAFKVmZAbBnXGZB5a0YW6A8fEj6qPACLcBGAsYHQ/s3840/assassins-creed-valhalla-game-new-ei-3840x2160.jpg) */
+}
+
+#FeaturedLaptop {
+  /* background-color:  #B8C0FF; */
+  background-size: cover;
+  background-image: url(./pictures/featuredLaptop.png)
+}
+
+#FeaturedConsole {
+  /* background-color:  #B8C0FF; */
+  background-size: cover;
+  background-image: url(./pictures/featuredConsole.png)
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 200%;
+   -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://pixelz.cc/wp-content/uploads/2017/12/assassins-creed-4-black-flag-uhd-4k-wallpaper.jpg);
+  opacity: 0.75;
+}
+
+/* https://wallpaperswide.com/download/assassins_creed_character_art-wallpaper-3840x2160.jpg */
+
+.myFeatured {
+   position: relative; 
+      height: 80vh;
+      background-size: cover;
+  background-position: center;
+}
+
+#myCube {
+  width: 16.5rem;
+}
+
+.cardFeaturedHighlight {
+  width: 18rem;
+  min-height: 100%
+}
+
+.cardFeaturedImage {
+  max-Width: 100%;
+  max-Height: 100%;
+  /* width: 18rem; */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #myCube {
+    width: 25rem;
+  }
+
+  .cardFeaturedHighlight {
+    width: 18rem;
+    min-height: 100%
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #myCube {
+    width: 25rem;
+  }
+
+  .cardFeaturedHighlight {
+    width: 12rem;
+    min-height: 100%
+  }
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #myCube {
+    width: 25rem;
+  }
+
+  .cardFeaturedHighlight {
+    width: 16rem;
+    min-height: 100%
+  }
+}
+  
+ /* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { 
+  #myCube {
+    width: 25rem;
+    
+  }
+
+  .cardFeaturedHighlight {
+    width: 16.5rem;
+    min-height: 100%
+  }
+} */
+
+.myHiglightsCard1 {
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./pictures/bggames.jpeg)
+}
+
+.myHiglightsCard2 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./pictures/bgconsole.jpg)
+}
+
+.myHiglightsCard3 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./pictures/gow.png)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap');
+
+.title {
+  font-size: 2rem;
+  font-family: 'Chakra Petch', sans-serif;
+  color: black;
+  /* color: rgb(32, 66, 255); */
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.text {
+  color: black;
+  font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+.ProductDescription {
+ background-color: #99D6EA;
+ font-family: 'Tomorrow', sans-serif;
+}
+
+.Settings {
+ font-family: 'Tomorrow', sans-serif;
+}
+
+.myProduct {
+  font-family: 'Tomorrow', sans-serif;
+}
+
+.FeaturedContent {
+  font-family: 'Tomorrow', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@500&display=swap');
+.ProductName {
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: 500;
+}
+.FeaturedHeader{
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: 500;
+}
+
+.decrAndincr {
+  color:  #99D6EA;
+}
+
+#UpdateProfile {
+  background-color: #99D6EA;
+}
+
+
+
+.IconSales {
+  /* color: rgb(0, 47, 255); */
+  color: #1bbcf1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&display=swap');
+
+.BrandTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+}
+
+.BrandNavTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#ButtonBanner {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.BannerContent {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.myFooter {
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+#FooterComponent {
+  background-color: rgb(198, 217, 236);
+}
+
+.filter  {
+  font-family: 'Quicksand', sans-serif;
+}
